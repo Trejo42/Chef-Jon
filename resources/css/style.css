@@ -1,0 +1,41 @@
+body {
+  text-align: left;
+  background-color: darkSlateGray;
+  margin: 0px;
+}
+
+header {
+  /* FIXME: adjust black background to cover top of the page. */
+  background-color: dimGray;
+  text-align: center;
+  height: 150px;
+  width: auto;
+}
+
+header h1 {
+  text-align: center;
+  text-decoration: underline;
+  float: left;
+  margin: 25px 35px;
+  background-color: white;
+  padding: 20px;
+}
+
+header li {
+  color: white;
+  float: right;
+  list-style: none;
+  padding-top: 10px;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+header li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
