@@ -1,105 +1,121 @@
 body {
-  background-color: white;
-  margin: 0px;
-  height: auto;
-
+  width: auto;
+  margin: 0 auto;
 }
 
 header {
-  /* FIXME: adjust black background to cover top of the page. */
-  background-color: skyBlue;
-  height: 125px;
-  border: 5px solid black;
+  margin: 0;
+  z-index: 20;
+  height: 100px;
+  background-color: dodgerBlue;
 }
 
 header h1 {
-  text-align: center;
+  float: left;
+  position: relative;
+  left: 25px;
+  border: 2px solid black;
+  padding: 10px 20px;
   text-decoration: underline;
-  float: left;
-  margin: 20px 35px;
   background-color: white;
-  padding: 20px;
+
 }
 
-header .navigation {
-  max-width: 1100px;
-}
-
-header .navigation li {
-  float: left;
+header li {
   list-style: none;
-  text-align: center;
-  margin-top: 35px;
 }
 
-header .navigation li a {
-  color: white;
+header a {
+  color: black;
   text-decoration: none;
-  padding: 30px 50px;
-  border: 1px solid black;
-
-
-
-  background-color: rgba(255, 0, 0, 0.5);
 }
 
-header .navigation li a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+header .social-tiles {
+  float: right;
+  padding-right: 2.5%;
 }
 
 header .social-tiles li {
-  float: right;
-  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
   margin: 0;
 }
 
-header .social-tiles li a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border: 2px solid black;
+header .social-tiles a:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 
-header .social-tiles li a:hover {
+header nav {
+  float: left;
+}
+
+header nav li {
+  display: inline-block;
+  float: left;
+}
+
+header nav a {
+  text-align: center;
+  padding: 20px 50px;
+  position: relative;
+  top: 40px;
+
+
+  background-color: skyBlue;
+}
+
+header nav a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div.main-page-title {
+  display: block;
+}
+
+div.food-items {
+  display: block;
+  float: left;
+  padding-left: 2.5%;
+
+}
+
+.food-items li {
+  list-style: none;
+  float: left;
+
+}
+
+.food-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  padding: 50px 100px;
+  margin: 0 auto;
+
+
+
+
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+.food-items a:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.main-page-title {
-  text-align: left;
-  height: 85px;
-  width: 1920px;
+footer {
+  display: block;
+  float: left;
 }
 
-div .foot-items {
-  align-items: center;
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin: 0;
-  height: 1500px;
+footer.social-tiles {
 
-  background-color: rgba(0, 255, 0, 0.5);
 }
 
-div .foot-items li {
-  align-items: center;
-  text-decoration: none;
+footer.social-tiles li {
   list-style: none;
-  color: black;
-  float: left;
-  margin: 0;
-
-
 }
 
-div .foot-items li a {
-  padding: 50px 150px;
-  border: 3px solid Black;
-  margin: 0;
-
-}
-
-div .footer {
-  float: left;
-
+footer.social-tiles li a {
+  text-decoration: none;
 }
