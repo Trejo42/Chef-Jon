@@ -4,8 +4,10 @@ body {
 }
 
 header {
-  margin: 0;
+  position: static;
+  top: 0;
   z-index: 20;
+  width: 100%;
   height: 100px;
   background-color: dodgerBlue;
 }
@@ -68,21 +70,25 @@ header nav a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.content {
+  
+}
+
 div.main-page-title {
   display: block;
+  padding-left: 2.5%;
+
 }
 
 div.food-items {
-  display: block;
   float: left;
-  padding-left: 2.5%;
-
+  padding-left: 5%;
+  display: block;
 }
 
 .food-items li {
   list-style: none;
   float: left;
-
 }
 
 .food-items a {
@@ -92,30 +98,14 @@ div.food-items {
   display: inline-block;
   padding: 50px 100px;
   margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 15px;
 
 
 
-
-  background-color: rgba(0, 255, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .food-items a:hover {
   background-color: rgba(0, 0, 0, 0.2);
-}
-
-footer {
-  display: block;
-  float: left;
-}
-
-footer.social-tiles {
-
-}
-
-footer.social-tiles li {
-  list-style: none;
-}
-
-footer.social-tiles li a {
-  text-decoration: none;
 }
