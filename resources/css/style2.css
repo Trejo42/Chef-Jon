@@ -91,11 +91,19 @@ header nav a:hover {
 }
 
 .container {
-  padding-left: 5%;
+  padding-left: 10%;
   padding-bottom: 20px;
-  display: flex;
-  justify-content: flex-start;
+  display: block;
+  width: 80%;
 
+}
+
+.row {
+
+}
+
+.box {
+  display: inline-flex;
 }
 
 .box a {
