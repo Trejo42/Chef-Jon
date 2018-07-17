@@ -7,59 +7,76 @@ header {
   position: fixed;
   top: 0;
   z-index: 2000;
+  height: 100px;
   width: 100%;
-  height: 125px;
-  background-color: royalBlue;
+  display: flex;
+  justify-content: flex-start;
+
+
+
+
+
+  background-color: black;
 }
 
-.website-title {
-  float: left;
-  position: relative;
-  left: 300px;
-  border: 2px solid black;
-  padding: 10px 20px;
-  text-decoration: underline;
-  background-color: white;
+nav {
+  display: inline-flex;
+  align-items: flex-start;
+  
 
+
+
+
+  background-color: green;
+}
+
+nav a {
+  padding: 30px 80px;
+  background-color: white;
+  border: 3px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbox {
+  display: inline-block;
 }
 
 .social-container {
-  float: right;
-  padding: 20px 300px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .social-tiles {
-  display: inline-block;
-  justify-content: flex-start;
 
 }
 
 header a {
   padding: 5px 20px;
   margin: 0;
-
 }
-
-.navcontainer {
-  
-}
-
+/*Beginning of Page Content*/
 .content {
   position: relative;
-  top: 115px;
+  top: 70px;
 }
 
-.main-page-title {
+.page-title {
   display: block;
-  padding-left: 2.5%;
+  padding-left: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: royalBlue;
   text-decoration: underline;
-
 }
 
 .container {
   padding-bottom: 20px;
-  display: block;
-  text-align: ;
+  padding-left: 15%;
 }
 
 .row {
@@ -97,27 +114,4 @@ header a {
   height: 100px;
   margin: 0;
   background-color: royalBlue;
-}
-
-footer .social-tiles {
-  display: block;
-  float: right;
-  border: 2px solid black;
-  padding: 10px 5px;
-  margin: 0;
-}
-
-footer .social-tiles li {
-  display: inline-block;
-  margin: 0;
-
-}
-
-footer .social-tiles a {
-  padding: 10px 5px;
-  margin: 0;
-}
-
-footer .social-tiles a:hover {
-  color: rgba(0, 0, 0, 0.5);
 }
