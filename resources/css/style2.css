@@ -6,16 +6,16 @@ html, body {
 header {
   position: fixed;
   top: 0;
-  z-index: 20;
+  z-index: 2000;
   width: 100%;
-  height: 100px;
-  background-color: dodgerBlue;
+  height: 125px;
+  background-color: royalBlue;
 }
 
-header h1 {
+.website-title {
   float: left;
   position: relative;
-  left: 25px;
+  left: 300px;
   border: 2px solid black;
   padding: 10px 20px;
   text-decoration: underline;
@@ -23,59 +23,25 @@ header h1 {
 
 }
 
-header li {
-  list-style: none;
+.social-container {
+  float: right;
+  padding: 20px 300px;
+}
+
+.social-tiles {
+  display: inline-block;
+  justify-content: flex-start;
+
 }
 
 header a {
-  color: black;
-  text-decoration: none;
-}
-
-header .social-tiles {
-  display: block;
-  float: right;
-  border: 2px solid black;
-  padding: 10px 5px;
-  margin: 0;
-}
-
-header .social-tiles li {
-  display: inline-block;
+  padding: 5px 20px;
   margin: 0;
 
 }
 
-header .social-tiles a {
-  padding: 10px 5px;
-  margin: 0;
-}
-
-header .social-tiles a:hover {
-  color: rgba(0, 0, 0, 0.5);
-}
-
-header nav {
-  float: left;
-}
-
-header nav li {
-  display: inline-block;
-  float: left;
-}
-
-header nav a {
-  text-align: center;
-  padding: 20px 50px;
-  position: relative;
-  top: 40px;
-
-
-  background-color: skyBlue;
-}
-
-header nav a:hover {
-  color: rgba(0, 0, 0, 0.5);
+.navcontainer {
+  
 }
 
 .content {
@@ -93,16 +59,17 @@ header nav a:hover {
 .container {
   padding-bottom: 20px;
   display: block;
-  text-align: center;
+  text-align: ;
 }
 
 .row {
-  display: flex;
-  justify-content: center;
+  display: block;
+  padding: 10px;
 }
 
 .box {
   display: inline-flex;
+  align-items: flex-start;
 }
 
 .box a {
@@ -129,7 +96,7 @@ header nav a:hover {
   width: 100%;
   height: 100px;
   margin: 0;
-  background-color: dodgerBlue;
+  background-color: royalBlue;
 }
 
 footer .social-tiles {
