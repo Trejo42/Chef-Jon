@@ -2,6 +2,8 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #141d23;
+  text-align: center;
+  font-family: times;
 }
 
 /*Social Bar*/
@@ -14,14 +16,14 @@ html, body {
   text-align: center;
   list-style: none;
   padding: 2px 0;
-  background-color: royalBlue;
+  background-color: darkSlateBlue;
 }
 
 .social-nav li {
   display: inline-block;
   padding: 5px;
   position: relative;
-  left: 350px;
+  left: 450px;
 }
 
 .social-nav li a {
@@ -42,17 +44,17 @@ html, body {
   top: 30px;
   width: 100%;
   list-style: none;
-  text-align: left;
+  text-align: center;
   padding: 25px 0 25px 5%;
   background-color: #141d23;
-  border-bottom: 1px solid royalBlue;
+  border-bottom: 2px solid darkSlateBlue;
 }
 
 .nav li {
   display: inline-block;
-  padding-left: 20px;
+  padding: 3px 10px 3px 0px;
   position: relative;
-  left: 150px;
+  right: 550px;
 }
 
 .nav li a {
@@ -70,33 +72,42 @@ html, body {
 .content {
   position: relative;
   top: 98px;
-
 }
 
 .page-title {
-  display: block;
-  padding-left: 15%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 100%;
+  padding: 10px 0;
+  text-transform: capitalize;
+  font-size: 20px;
   color: white;
-  background-color: royalBlue;
+  background-color: darkSlateBlue;
 }
 
 /*Row Items*/
 
+h3 {
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0;
+}
+
 .container {
   padding-bottom: 20px;
-  padding-left: 15%;
+  width: 70%;
+  position: relative;
+  left: 16%;
 }
 
 .row {
-  display: block;
-  padding: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
 }
 
 .box {
-  display: inline-flex;
-  align-items: flex-start;
+  display: inline-block;
 }
 
 .box a {
@@ -108,22 +119,36 @@ html, body {
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 10px;
-
-
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: white;
 }
 
 .box a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: oldLace;
 }
 
 /*Beginning of Footer*/
 
-.footer {
-  display: block;
-  float: left;
+footer {
+  margin: 0;
   width: 100%;
   height: 100px;
-  margin: 0;
-  background-color: royalBlue;
+
+  background-color: darkSlateBlue;
+}
+
+footer li {
+  display: inline-block;
+  padding: 5px;
+  position: relative;
+  left: 450px;
+
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
