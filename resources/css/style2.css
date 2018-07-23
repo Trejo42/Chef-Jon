@@ -88,16 +88,16 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100px;
   padding: 10px 0;
   background-color: Green;
+  border-bottom: 3px solid black;
 }
 
-.page-title span {
+.page-title-box {
   display: inline-block;
   color: black;
-  font-size: 20px;
+  font-size: 50px;
 
 }
 
@@ -107,7 +107,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -134,18 +134,22 @@ html, body {
   background-image: url("../images/cookie.jpg");
 }
 
+/*Paragraphs*/
+
 .paragraphs {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 0 auto;
+  padding: 0;
+  margin: 0;
 }
 
 .items {
-  display: inline-block;
+  display: inline-flex;
   width: 400px;
   height: 400px;
-  text-align: center;
-  padding: 20px;
   margin: 20px;
   border: 1px solid black;
 }
@@ -179,13 +183,6 @@ html, body {
   width: 400px;
 }
 
-
-
-.items span {
-  border-bottom: 2px solid black;
-
-}
-
 /*Beginning of Footer*/
 
 .social-nav-footer {
@@ -199,7 +196,7 @@ html, body {
 
 .social-nav-container-footer {
   display: flex;
-  margin-right: 200px;
+  margin-right: 10%;
   flex-direction: column;
 }
 
