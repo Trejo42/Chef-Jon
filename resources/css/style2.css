@@ -20,7 +20,7 @@ html, body {
 }
 
 .social-nav-container {
-  margin-right: 200px;
+  margin-right: 10%;
 }
 
 .social-nav span {
@@ -50,7 +50,7 @@ html, body {
 .logo {
   display: inline-flex;
   flex-grow: ;
-  margin-left: 200px;
+  margin-left: 10%;
 }
 
 .logo span {
