@@ -152,36 +152,21 @@ html, body {
   width: 400px;
   height: 400px;
   margin: 20px;
-  border: 1px solid black;
+  border: 5px solid darkGreen;
 }
 
-.items p {
-  font-size: 60px;
+.items h4 {
+  font-size: 40px;
   font-family: helvetica;
   margin: 10px;
   padding: 0;
-  color: white;
+  color: black;
 }
 
-.item-image-one {
-  background-image: url("../images/chef-hamster.jpg");
-  background-position: center;
-  height: 400px;
-  width: 400px;
-}
-
-.item-image-two {
-  background-image: url("../images/chef-dog.jpg");
-  background-position: center;
-  height: 400px;
-  width: 400px;
-}
-
-.item-image-three {
-  background-image: url("../images/funny-chef.jpg");
-  background-position: center;
-  height: 400px;
-  width: 400px;
+.items p {
+  color: black;
+  text-align: center;
+  padding: 15px;
 }
 
 /*Beginning of Footer*/
