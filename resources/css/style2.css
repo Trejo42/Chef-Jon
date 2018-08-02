@@ -137,28 +137,27 @@ html, body {
 
 /*Paragraphs*/
 
-.paragraphs {
-  display: flex;
+#large {
+  display: inline-flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 0 auto;
-  padding: 0;
-  margin: 0;
+  width: 25em;
+  height: 25em;
+  border: 2px solid darkGreen;
 }
 
-.items {
+#medium {
   display: inline-flex;
-  width: 400px;
-  height: 400px;
-  margin: 20px;
-  border: 5px solid darkGreen;
+  flex-direction: column;
+  width: 25em;
+  height: 12.5em;
+  border: 2px solid darkGreen;
+  overflow: hidden;
 }
 
 .items h4 {
-  font-size: 40px;
+  font-size: 2.5em;
   font-family: helvetica;
-  margin: 10px;
+  margin: .75em;
   padding: 0;
   color: black;
 }
@@ -166,7 +165,7 @@ html, body {
 .items p {
   color: black;
   text-align: center;
-  padding: 15px;
+  padding: 1em;
 }
 
 /*Beginning of Footer*/
